@@ -9,7 +9,7 @@ O GNARL promove a emergência da complexidade e comportamento da rede neuronal c
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.48\textwidth]{imagens/evo_alg}
-    \caption{Aplicação de algoritmos evolutivos no design de ANNs~\cite{Darwish2020ALearning}}
+    \caption{Aplicação de EAs no design de ANNs. Extraída de~\cite{Darwish2020ALearning}}
     \label{fig:evo_alg}
 \end{figure}
 
@@ -45,7 +45,7 @@ No entanto, o EPNet pode exigir tempos de computação mais longos dado a dimens
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.48\textwidth]{imagens/evo_alg3}
-    \caption{Aplicação de algoritmos evolutivos em redes convolucionais\cite{Badan2019EvolutionaryDesign}}
+    \caption{Aplicação de EAs em CNNs. Extraído de \cite{Badan2019EvolutionaryDesign}}
     \label{fig:evo_alg_cnn}
 \end{figure}
 
@@ -61,7 +61,7 @@ Apesar da sua rapidez e eficiência, o ELM pode exigir um número maior de neur�
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.48\textwidth]{imagens/slfn}
-    \caption{Estrutura de uma SLFN~\cite{Erdem2020IntroductionMachines}}
+    \caption{Estrutura de uma SLFN. Extraído de~\cite{Erdem2020IntroductionMachines}}
     \label{fig:slfn}
 \end{figure}
 
@@ -108,11 +108,11 @@ No entanto, as técnicas de otimização baseadas em gradiente, como a retroprop
 
 Segundo Sexton, et al.~\cite{Sexton1998, Sexton1999}, essas limitações podem resultar em desempenho inconsistente e imprevisível.
 Por outro lado, a imposição de restrições no espaço de pesquisa e a reestruturação da arquitetura da rede não era necessária, desde que fossem utilizados uma arquitetura inicial suficientemente complexa e um algoritmo global apropriado, apresentando como alternativa os algoritmos genéticos, que oferecem vantagens na obtenção de soluções mais robustas.
-Os autores também apresentam um estudo de Monte Carlo que compara o desempenho de várias técnicas de pesquisa global, incluindo o Simulated Annealing (SA) e o GA, no qual mostram que o GA conseguiu obter soluções mais robustas, sem a necessidade de impor restrições no espaço de pesquisa ou reestruturar a arquitetura da rede, destacando a sua importância como uma ferramenta versátil de estimativa de funções.
+Os autores também apresentam um estudo de Monte Carlo que compara o desempenho de várias técnicas de pesquisa global, incluindo o Simulated Annealing (SA) e o GA, no qual mostram que o GA conseguiu obter soluções mais robustas (ver Tabela~\ref{tab:breastcancer}), sem a necessidade de impor restrições no espaço de pesquisa ou reestruturar a arquitetura da rede, destacando a sua importância como uma ferramenta versátil de estimativa de funções.
 
 \begin{table}[htbp]
     \centering
-    \caption{Resultados do problema do cancro da mama\cite{Sexton1999}}
+    \caption{Resultados do problema do cancro da mama}
     \begin{tabular}{cccc}
         \hline
         Algoritmo & GA      & SA      & BP        \\ \hline
@@ -133,7 +133,7 @@ Além disso, a combinação de algoritmos genéticos com outras técnicas de oti
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.4\textwidth]{imagens/ga_nn}
-    \caption{Otimização de uma rede neuronal com um algoritmo genético~\cite{Rahman2015AnAlgorithms}}
+    \caption{Otimização de NNs com GAs. Extraído de~\cite{Rahman2015AnAlgorithms}}
     \label{fig:ga_nn}
 \end{figure}
 
